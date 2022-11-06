@@ -3,4 +3,5 @@ basic.forever(function () {
     OLED.clear()
     OLED.writeString("Nivel de luz:")
     OLED.writeNum(Environment.ReadLightIntensity(AnalogPin.P2))
+    basic.pause(2000)
 })
